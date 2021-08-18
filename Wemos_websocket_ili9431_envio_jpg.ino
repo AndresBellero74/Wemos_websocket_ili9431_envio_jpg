@@ -29,10 +29,8 @@ TFT_eSPI tft = TFT_eSPI();  // Invoke library, pins defined in User_Setup.h
 const char* imageFileName = "/camimage.jpg";
 
 bool useStaticIP = false;
-//const char* ssid = "Celular Andres Trabajo";
-//const char* password = "Agustina";
-const char* ssid = "Fibertel WiFi195 2.4GHz";
-const char* password = "0146659536";
+const char* ssid = "Red Wifi";
+const char* password = "Clave Wifi";
 
 IPAddress IP(192,168,0,201);     
 IPAddress gateway(192,168,0,1);   
